@@ -67,3 +67,11 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# .gitignore
+.env.development
+
+# .env.development
+# This is in gitignore and should not be pushed to the repository.
+
+WORDPRESS_URL=http://gatsite.local/
