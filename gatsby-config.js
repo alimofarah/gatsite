@@ -172,7 +172,7 @@ module.exports = {
     options: {
       typeName: "WPGraphQL",
       fieldName: "wpgraphql",
-      url: `https://github.com/alimofarah/gatsite/graphql`,
+      url: `${process.env.WORDPRESS_URL}/graphql`,
     },
   },
   
