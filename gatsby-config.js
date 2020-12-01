@@ -15,6 +15,7 @@ require("dotenv").config({
 console.log(`This WordPress Endpoint is used: '${process.env.WORDPRESS_URL}'`)
 
 module.exports = {
+   pathPrefix: "/gatsite",
   siteMetadata:{
     title: "Severus Snape",
     titleTemplate: "%s · The Real Hero",
