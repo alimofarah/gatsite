@@ -14,7 +14,7 @@ const FooterExplore = () => {
         }, {
             id: "3",
             name: 'contact',
-            Link: "/contact/"
+            Link: "/ContactForm/"
         }, {
             id: "4",
             name: 'blog',
