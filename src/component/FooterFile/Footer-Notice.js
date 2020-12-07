@@ -7,10 +7,10 @@ const FooterNotice = () => {
         <footer >
             <div
                 className="container mx-auto px-6 sm:flex sm:mt-8 flex flex-row text-white mx-4">
-                <Link className="mx-2" to="">Legal</Link>
-                <Link className="mx-2" to="">Privacy Policy
+                <Link className="mx-2" to="/">Legal</Link>
+                <Link className="mx-2" to="/">Privacy Policy
                 </Link>
-                <Link className="mx-2" to="">Terms of Use</Link>
+                <Link className="mx-2" to="/">Terms of Use</Link>
 
             </div>
             <div className="container mx-auto px-6 sm:flex sm:mt-8 flex flex-col">

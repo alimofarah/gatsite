@@ -50,6 +50,7 @@ query MyQuery {
           featuredImage {
             node {
               guid
+              sourceUrl
             }
           }
         }

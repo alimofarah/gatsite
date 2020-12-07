@@ -24,6 +24,11 @@ module.exports = async ({ actions, graphql }) => {
           featuredImage {
             node {
               guid
+              sourceUrl
+              link
+            slug
+            uri
+            
             }
           }
         }

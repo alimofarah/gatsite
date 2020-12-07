@@ -28,7 +28,7 @@ const SliderShowSwiper = ({data}) => {
                     autoplay={true}>
 
                     {data.map(node => {
-                        const src = node.featuredImage.node.guid
+                        const src = node.featuredImage.node.sourceUrl
 
                         return (
 

@@ -27,13 +27,13 @@ console.log(props);
                                     title={node.title}
                                     description={node.excerpt}
                                     author={node.author.node.name}
-                                    image={node.featuredImage.node.guid}/>
+                                    image={node.featuredImage.node.sourceUrl}/>
 
                                 <div className="flex flex-col  ">
                                     <img
                                         className="rounded shadow-xl object-cover  xl:mx-auto xl:w-4/5  xl:h-screen sm:w-4/5 sm:mx-auto "
-                                        src={node.featuredImage.node.guid}
-                                        alt={node.featuredImage.node.guid}/>
+                                        src={node.featuredImage.node.sourceUrl}
+                                        alt={node.featuredImage.node.sourceUrl}/>
                                     <div className="px-6 ">
                                         <div className="text-blue-600 text-2xl font-serif text-center mt-8">
                                             <Link to={`/blog${node.uri}`}>{node.title}</Link>
@@ -91,6 +91,10 @@ export const query = graphql `
           featuredImage {
             node {
               guid
+              sourceUrl
+              link
+              slug
+              uri
             }
           }
           

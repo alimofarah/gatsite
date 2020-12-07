@@ -16,7 +16,7 @@ const CONTACT_MUTATION = gql `
   
 `
 //
-const ContactForm = () => {
+const ContactForm = ({children}) => {
     const [firstNameValue,
         setFirstNameValue] = useState('')
     const [lastNameValue,
@@ -114,7 +114,7 @@ const ContactForm = () => {
                                 </form>
                                 <hr className="mx-16 mt-4 border-t" />
                                 <div className='p-6 m-4 '>
-                                    {loading && <p>Loading...</p>}
+                                    {loading && <p className=' font-semibold text-2xl'>Loading...</p>}
                                     {error && (
                                         <p className='text-red-700 font-semibold text-2xl'>An unknown error has occured, please try again later...</p>
                                     )}

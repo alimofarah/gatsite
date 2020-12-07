@@ -14,7 +14,7 @@ const Post = props => {
     } = props
     const {title, content} = post
     const disqusShortname = "gatsite"
-    const baseurl = "http://localhost:8000/blog/"
+    const baseurl = "http://localhost:8000/"
 
     const disqusConfig = {
         url: baseurl + `/blog${post.uri}`,

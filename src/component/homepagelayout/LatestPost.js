@@ -20,7 +20,7 @@ const LatestPost = ({data}) => {
                     className="xl:flex-1 lg:flex-1 md:flex-1 h-screen xl:max-w-96 lg:max-w-96 md:w-64 sm:w-3/5 sm:mx-auto">
                     <img
                         className=" object-cover h-full w-full  rounded "
-                        src={pr.featuredImage.node.guid}
+                        src={pr.featuredImage.node.sourceUrl}
                         alt=""/>
                 </div>
                 <div
@@ -76,7 +76,7 @@ const LatestPost = ({data}) => {
                     className="xl:flex-1 lg:flex-1 md:flex-1 h-screen xl:max-w-96 lg:max-w-96 md:max-w-96 sm:w-3/5 sm:mx-auto">
                     <img
                         className="object-cover h-full w-full  rounded"
-                        src={pr2.featuredImage.node.guid}
+                        src={pr2.featuredImage.node.sourceUrl}
                         alt=""/>
                 </div>
 

@@ -5,7 +5,7 @@ import ImgAbout from "../image/about-page.jpg"
 const About = () => {
     return (
         <Layout className="">
-            <div className="    ">
+            <div className="w-full">
                 <div
                     className="container xl:grid xl:grid-cols-2 xl:gap-0 h-auto w-4/5 mx-auto my-16 ">
                     <div className="text-3xl">Who we are</div>
@@ -19,7 +19,7 @@ const About = () => {
                     </div>
 
                 </div>
-                <div className="w-screen xl:h-screen sm:h-auto bg-yellow-200">
+                <div className="w-full xl:h-screen sm:h-auto bg-yellow-200">
                     <div className="container xl:grid xl:grid-cols-2 xl:gap-0 h-6/4 w-4/5 mx-auto ">
 
                         <img
